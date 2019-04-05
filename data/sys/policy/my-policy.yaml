@@ -1,0 +1,13 @@
+---
+policy: |
+  # My Team policy
+
+  path "kv" {
+    capabilities = ["list"]
+  }
+  path "kv/my-team" {
+    capabilities = ["read", "list"]
+  }
+  path "kv/my-team/*" {
+    capabilities = ["read", "list"]
+  }

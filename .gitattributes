@@ -1,0 +1,3 @@
+#data/kv/** filter=git-crypt diff=git-crypt
+#data/auth/** filter=git-crypt diff=git-crypt
+.gitattributes !filter !diff
